@@ -5,4 +5,5 @@ class Book < ApplicationRecord
   has_many :activities, dependent: :destroy
   has_many :users, through: :activities
   validates :price, presence: true, format: {with: PRICE_VND_REGEX}
+  default_scope {order(created_at: :DESC)}
 end

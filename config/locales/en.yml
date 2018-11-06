@@ -34,7 +34,7 @@ en:
       search: "Search"
       profile: "Profile"
       users: "Users"
-      book: "Book"
+      book: "Books"
       logout: "Log out"
     application:
       title: "Book Reviews System"
